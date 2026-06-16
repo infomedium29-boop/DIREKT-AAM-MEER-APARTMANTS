@@ -1,4 +1,4 @@
-# Direkt am Meer-Apartments Puntaplanka — demo web stranica
+# Direkt am Meer-Apartments Puntaplanka — web stranica
 
 Ovo je statički višestranični HTML/CSS/JS web spreman za GitHub Pages ili Cloudflare Pages.
 
@@ -14,13 +14,13 @@ Ovo je statički višestranični HTML/CSS/JS web spreman za GitHub Pages ili Clo
 Sve dostavljene AVIF fotografije nalaze se u:
 assets/images/
 
-Hero fotografija je trenutni premium placeholder:
+Hero fotografija:
 assets/images/hero-placeholder.avif
 
 ## Važno prije objave
-1. U kontakt.html zamijeniti placeholder broj i e-mail stvarnim podacima.
+1. U kontakt.html zamijeniti privremeni broj i e-mail stvarnim podacima.
 2. Po želji povezati kontakt formu s Web3Forms/Formspree ili backendom.
-3. Ako vlasnik potvrdi točan raspored apartmana, zamijeniti demo nazive:
+3. Po potrebi zamijeniti nazive smještajnih jedinica:
    - Apartman Panorama
    - Apartman Sunset
    - Studio Sea View
