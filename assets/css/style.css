@@ -801,6 +801,11 @@ input:focus,textarea:focus{
   .brand strong{font-size:14px}
   .brand-mark{width:38px;height:38px}
   .hero{padding:124px 20px 56px}
+
+  .hero-media img{
+    object-position:68% center;
+    transform:scale(1.06);
+  }
   .hero-overlay{
     background:
       linear-gradient(180deg,rgba(255,253,248,.72) 0%, rgba(255,253,248,.82) 44%, rgba(251,248,242,.98) 100%),
