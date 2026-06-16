@@ -803,13 +803,14 @@ input:focus,textarea:focus{
   .hero{padding:124px 20px 56px}
 
   .hero-media img{
-    object-position:68% center;
-    transform:scale(1.06);
+    object-position:74% center;
+    transform:scale(1.04);
+    filter:saturate(1.08) contrast(1.04);
   }
   .hero-overlay{
     background:
-      linear-gradient(180deg,rgba(255,253,248,.72) 0%, rgba(255,253,248,.82) 44%, rgba(251,248,242,.98) 100%),
-      linear-gradient(90deg,rgba(255,253,248,.80),rgba(255,253,248,.40));
+      linear-gradient(180deg,rgba(255,253,248,.38) 0%, rgba(255,253,248,.55) 48%, rgba(251,248,242,.90) 100%),
+      linear-gradient(90deg,rgba(255,253,248,.48),rgba(255,253,248,.18));
   }
   h1{font-size:43px;line-height:1.04}
   h2{font-size:34px}
