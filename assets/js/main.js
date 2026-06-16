@@ -81,11 +81,14 @@ filterButtons.forEach(button => {
 });
 
 const contactForm = document.querySelector('.contact-form');
-contactForm?.addEventListener('submit', event => {
-  event.preventDefault();
+if(contactForm){
   const status = contactForm.querySelector('.form-status');
-  if(status){
-    status.textContent = 'Upit je spreman kao demo. Za stvarno slanje potrebno je povezati formu s e-mail servisom.';
+  const nextInput = contactForm.querySelector('input[name="_next"]');
+  if(nextInput){
+    nextInput.value = `${window.location.origin}${window.location.pathname}?sent=1`;
   }
-  contactForm.reset();
-});
+  const params = new URLSearchParams(window.location.search);
+  if(params.get('sent') === '1' && status){
+    status.textContent = 'Hvala! Vaš upit je poslan. Javit ćemo vam se u najkraćem mogućem roku.';
+  }
+}
