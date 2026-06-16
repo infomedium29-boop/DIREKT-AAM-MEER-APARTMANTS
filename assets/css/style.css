@@ -789,8 +789,15 @@ input:focus,textarea:focus{
 }
 @media (max-width:680px){
   body{line-height:1.72}
-  .site-header{width:calc(100% - 22px);top:10px;padding:10px 12px}
-  .brand small{display:none}
+  .site-header{width:calc(100% - 22px);top:10px;padding:10px 12px;align-items:center}
+  .brand small{
+    display:block;
+    font-size:10px;
+    line-height:1.15;
+    margin-top:3px;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+  }
   .brand strong{font-size:14px}
   .brand-mark{width:38px;height:38px}
   .hero{padding:124px 20px 56px}
